@@ -22,8 +22,6 @@ GPIO 16: Tact switch button (BLANK BUTTON)
 GPIO 17: Tact switch button (MEASUREMENT BUTTON)
 ADCO(GP26): TEPT4400
 3V3(OUT): plus(+) terminal
-# Experiment
-![First](Running file.png)
 
   
 # State of the art 
