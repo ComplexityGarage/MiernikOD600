@@ -25,7 +25,7 @@ ADCO(GP26): TEPT4400 to 4.7K resistor to GND;
 
   
 # State of the art 
-We managed to assamble and write a python code for our device. It is able to run on it's own - just from the phone charger or USB charging port of our computer. We decided to compare it to commercial device such as XXX.
+We managed to assamble and write a python code for our device. It is able to run on it's own - just from the phone charger or USB charging port of our computer. We decided to compare it to commercial device such as NanoDrop.
 # What next?
 The results we got showed us what should be made better:
 • creating the 'calibration curve' - growing yeasts for certain time, conducting several dilutions as before but also growing a small amount of this solution on petri dish in order to assess how much of the colony forming unit we have in certain volume of our culture. This will let us create more precise device
