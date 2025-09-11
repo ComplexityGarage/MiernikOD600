@@ -15,6 +15,14 @@ For this experiment we cultured baker's yeast in LB medium overnight in shaking 
 • Resistor 4.7k
 • Resistor 0.33k
 • Raspberry Pi Pico H
+# Science and tech used 
+**Connections of the electronics:**
+GPIO 15: LED terminal
+GPIO 16: Tact switch button (BLANK BUTTON)
+GPIO 17: Tact switch button (MEASUREMENT BUTTON)
+ADCO(GP26): TEPT4400
+3V3(OUT): plus(+) terminal
+
   
 # State of the art 
 We managed to assamble and write a python code for our device. It is able to run on it's own - just from the phone charger or USB charging port of our computer. We decided to compare it to commercial device such as XXX.
