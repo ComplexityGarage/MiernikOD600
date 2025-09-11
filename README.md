@@ -22,10 +22,15 @@ GPIO 16: Tact switch button (BLANK BUTTON);
 GPIO 17: Tact switch button (MEASUREMENT BUTTON)
 ADCO(GP26): TEPT4400 to 4.7K resistor to GND;
 3V3(OUT): plus(+) terminal;
+# Use of the device
+1. First, connect the RP pico to the computer with Thonny installed
+2. Upload the .py file to the RP pico and run it.
+3. Start playing! All instructions will be displayed in the terminal.
+
 
   
 # State of the art 
-We managed to assamble and write a python code for our device. It is able to run on it's own - just from the phone charger or USB charging port of our computer. We decided to compare it to commercial device such as NanoDrop.
+We managed to assamble and write a python code for our device. We decided to compare it to commercial device such as NanoDrop.
 # What next?
 The results we got showed us what should be made better:
 • creating the 'calibration curve' - growing yeasts for certain time, conducting several dilutions as before but also growing a small amount of this solution on petri dish in order to assess how much of the colony forming unit we have in certain volume of our culture. This will let us create more precise device
