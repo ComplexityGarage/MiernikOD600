@@ -16,12 +16,14 @@ For this experiment we cultured baker's yeast in LB medium overnight in shaking 
 • Resistor 0.33k;
 • Raspberry Pi Pico H;
 # Connections 
-**Connections of the electronics:**
+**Connections of the electronics and schemtics:**
 GPIO 15: LED terminal to 0.33K resistor to GND;
 GPIO 16: Tact switch button (BLANK BUTTON);
 GPIO 17: Tact switch button (MEASUREMENT BUTTON)
 ADCO(GP26): TEPT4400 to 4.7K resistor to GND;
 3V3(OUT): plus(+) terminal;
+/assets/circuit.png
+
 # Use of the device
 1. First, connect the RP pico to the computer with Thonny installed
 2. Upload the .py file to the RP pico and run it.
