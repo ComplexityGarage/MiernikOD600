@@ -29,22 +29,32 @@ We managed to assamble and write a python code for our device. We decided to com
 
 **Sample Preparation**
 ![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/sample%20preparation.jpg)
+
+
 We performed the serial dilutions of the yeast culture as it was clearly too optically dense and the measurements were false. We prepared 2X; 5X; 10X; 50X; 100X; 1000X dilutions of the culture.
 
 **Running the code**
 ![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/Running%20file.png)
+
+
 When code uploaded to RP pico we should see above message in the terminal in Thonny
 
 **Blanking**
 ![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/Blankowanie.jpg)
+
+
 Next what we have to do is to BLANK our samples. It means basically to remove the background noise comming from the growing medium (LB medium). We have to put over 1mL of it to the spectrophotometric cuvette and click BLANK button.
 
 ![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/zblankowano.png)
+
+
 We should see, that the blanking has completed as above.
 
 **Measurement**
 Next step was to measure actual sample. We took in this case 10X dilution for the measurement and we got realiable data.
 ![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/pomiar_10X.png)
+
+
 The programm will continue to work until we press any keyboard button.
 
 
