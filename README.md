@@ -34,6 +34,8 @@ We managed to assamble and write a python code for our device. We decided to com
 We performed the serial dilutions of the yeast culture as it was clearly too optically dense and the measurements were false. We prepared 2X; 5X; 10X; 50X; 100X; 1000X dilutions of the culture.
 
 **Running the code**
+
+
 ![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/Running%20file.png)
 
 
