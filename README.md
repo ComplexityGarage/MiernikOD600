@@ -15,25 +15,39 @@ For this experiment we cultured baker's yeast in LB medium overnight in shaking 
 • Resistor 4.7k;
 • Resistor 0.33k;
 • Raspberry Pi Pico H;
-# Connections 
-**Connections of the electronics and schemtics:**
-GPIO 15: LED terminal to 0.33K resistor to GND;
-GPIO 16: Tact switch button (BLANK BUTTON);
-GPIO 17: Tact switch button (MEASUREMENT BUTTON)
-ADCO(GP26): TEPT4400 to 4.7K resistor to GND;
-3V3(OUT): plus(+) terminal;
-
+# Schematics
 ![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/c2271b6e090f62f1f22ae288c984c10fa618f300/circuit.png)
+Above circuit was made with EasyEDA(Standard) 6.5.46
 
 # Use of the device
 1. First, connect the RP pico to the computer with Thonny installed
 2. Upload the .py file to the RP pico and run it.
 3. Start playing! All instructions will be displayed in the terminal.
-
-
   
 # State of the art 
 We managed to assamble and write a python code for our device. We decided to compare it to commercial device such as NanoDrop.
+
+**Sample Preparation**
+![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/sample%20preparation.jpg)
+We performed the serial dilutions of the yeast culture as it was clearly too optically dense and the measurements were false. We prepared 2X; 5X; 10X; 50X; 100X; 1000X dilutions of the culture.
+
+**Running the code**
+![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/Running%20file.png)
+When code uploaded to RP pico we should see above message in the terminal in Thonny
+
+**Blanking**
+![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/Blankowanie.jpg)
+Next what we have to do is to BLANK our samples. It means basically to remove the background noise comming from the growing medium (LB medium). We have to put over 1mL of it to the spectrophotometric cuvette and click BLANK button.
+
+![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/zblankowano.png)
+We should see, that the blanking has completed as above.
+
+**Measurement**
+Next step was to measure actual sample. We took in this case 10X dilution for the measurement and we got realiable data.
+![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/pomiar_10X.png)
+The programm will continue to work until we press any keyboard button.
+
+
 # What next?
 The results we got showed us what should be made better:
 • creating the 'calibration curve' - growing yeasts for certain time, conducting several dilutions as before but also growing a small amount of this solution on petri dish in order to assess how much of the colony forming unit we have in certain volume of our culture. This will let us create more precise device
