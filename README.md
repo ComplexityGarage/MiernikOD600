@@ -22,7 +22,8 @@ GPIO 16: Tact switch button (BLANK BUTTON);
 GPIO 17: Tact switch button (MEASUREMENT BUTTON)
 ADCO(GP26): TEPT4400 to 4.7K resistor to GND;
 3V3(OUT): plus(+) terminal;
-/assets/circuit.png
+
+![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/c2271b6e090f62f1f22ae288c984c10fa618f300/circuit.png)
 
 # Use of the device
 1. First, connect the RP pico to the computer with Thonny installed
