@@ -53,7 +53,10 @@ Next what we have to do is to BLANK our samples. It means basically to remove th
 We should see, that the blanking has completed as above.
 
 **Measurement**
+
+
 Next step was to measure actual sample. We took in this case 10X dilution for the measurement and we got realiable data.
+
 ![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/09559a8f9322399dd1d7a77e15746ecab1343805/pomiar_10X.png)
 
 
