@@ -68,4 +68,5 @@ The results we got showed us what should be made better:
 • increasing the sensitivity of our device by use of transimpedance amplifier 
 • making proper case for the whole machine
 # Sources 
-- [Writing on GitHub] ( https://docs.github.com/en/get-started/writing-on-github ) 
+- [Writing on GitHub] ( https://docs.github.com/en/get-started/writing-on-github )
+- Analiza instrumentalna w biochemii. Wybrane problemy i metody instrumentalnej biochemii analitycznej. red. A.1. Kozik, Instytut Biologii Molekularnej UJ, Kraków 2001
