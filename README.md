@@ -9,21 +9,19 @@ Lambert-Beer's law is used to measure it. Even thought this formula refers speci
 Growing medium: Luria-Broth (also referred as 'LB') is a mixture of highly nutritious compounds which let bacteria and yeasts multiply in artifitial environment - it will be used as BLANK and also SAMPLE (containing baker's yeast in this experiment).
 For this experiment we cultured baker's yeast in LB medium overnight in shaking conditions of 250 rpm in 37°C. In order to check how our device corelates with others we did multiple dilutions of the overnight culture and ended up with such set: BLANK; 0X; 2X; 5X; 10X; 50X; 100X; 1000X. We measured OD600 on our device and it gave quite consistent data with commercial machines in some range.
 
-**Electronics used in this project:**
+**Electronics and materials used in this project:**
 • Phototransistor TEPT4400;
 • Yellow LED diode (close to 600 nm);
 • Resistor 4.7k;
 • Resistor 0.33k;
 • Raspberry Pi Pico H;
+• Printed PETG models (0.02mm, standard settings, sliced with Prusa Slicer 2.9.2)
+
+
 # Schematics
 ![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/c2271b6e090f62f1f22ae288c984c10fa618f300/circuit.png)
 
 Above circuit was made with EasyEDA(Standard) 6.5.46
-
-# Use of the device
-1. First, connect the RP pico to the computer with Thonny installed
-2. Upload the .py file to the RP pico and run it.
-3. Start playing! All instructions will be displayed in the terminal.
   
 # State of the art 
 We managed to assamble and write a python code for our device. We decided to compare it to commercial device such as NanoDrop.
