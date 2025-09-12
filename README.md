@@ -10,11 +10,11 @@ Growing medium: Luria-Broth (also referred as 'LB') is a mixture of highly nutri
 For this experiment we cultured baker's yeast in LB medium overnight in shaking conditions of 250 rpm in 37°C. In order to check how our device corelates with others we did multiple dilutions of the overnight culture and ended up with such set: BLANK; 0X; 2X; 5X; 10X; 50X; 100X; 1000X. We measured OD600 on our device and it gave quite consistent data with commercial machines in some range.
 
 **Electronics and materials used in this project:**
-• Phototransistor TEPT4400;
-• Yellow LED diode (close to 600 nm);
-• Resistor 4.7k;
-• Resistor 0.33k;
-• Raspberry Pi Pico H;
+• Phototransistor TEPT4400, 3 mm;
+• Yellow LED diode, 5 mm (close to 600 nm);
+• Resistor 4.7kOhm;
+• Resistor 330Ohm;
+• Raspberry Pi Pico;
 • Printed PETG models (0.02mm, standard settings, sliced with Prusa Slicer 2.9.2)
 
 
