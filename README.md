@@ -17,6 +17,7 @@ For this experiment we cultured baker's yeast in LB medium overnight in shaking 
 • Raspberry Pi Pico H;
 # Schematics
 ![image alt](https://github.com/ComplexityGarage/MiernikOD600/blob/c2271b6e090f62f1f22ae288c984c10fa618f300/circuit.png)
+
 Above circuit was made with EasyEDA(Standard) 6.5.46
 
 # Use of the device
